@@ -1,12 +1,12 @@
 import React from 'react';
 import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock } from 'react-icons/ai';
-import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
-import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
+import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar } from 'react-icons/fi';
+import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield } from 'react-icons/bs';
 import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
 import { RiContactsLine, RiStockLine } from 'react-icons/ri';
 import { MdOutlineSupervisorAccount } from 'react-icons/md';
-import { HiOutlineRefresh } from 'react-icons/hi';
+// import { HiOutlineRefresh } from 'react-icons/hi';
 import { TiTick } from 'react-icons/ti';
 import { GiLouvrePyramid } from 'react-icons/gi';
 import { GrLocation } from 'react-icons/gr';
@@ -21,7 +21,7 @@ import product4 from './product4.jpg';
 import product5 from './product5.jpg';
 import product6 from './product6.jpg';
 import product7 from './product7.jpg';
-import product8 from './product8.jpg';
+// import product8 from './product8.jpg';
 
 export const gridOrderImage = (props) => (
   <div>
@@ -625,7 +625,7 @@ export const earningData = [
   },
   {
     icon: <BsBoxSeam />,
-    amount:'60',
+    amount: '60',
     percentage: '5.6%',
     title: 'Runs',
     iconColor: 'rgb(255, 244, 229)',
@@ -641,7 +641,7 @@ export const earningData = [
     iconBg: 'rgb(255, 244, 229)',
 
     pcColor: 'green-600',
-  }
+  },
   // {
   //   icon: <HiOutlineRefresh />,
   //   amount: '39,354',
@@ -3092,7 +3092,6 @@ export const SparklineAreaData = [
 ];
 
 export const lineCustomSeries = [
- 
   { dataSource: lineChartData[1],
     xName: 'x',
     yName: 'y',
@@ -3100,7 +3099,6 @@ export const lineCustomSeries = [
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
-
   { dataSource: lineChartData[2],
     xName: 'x',
     yName: 'y',
